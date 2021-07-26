@@ -1,0 +1,188 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+  background-color: #000f33;
+  overflow: hidden;
+  cursor: default;
+}
+#main-div {
+  display: flex;
+  justify-content: center;
+}
+#container {
+  background-color: #ffffff;
+  height: 100vh;
+  width: 800px;
+}
+#header {
+  position: relative;
+}
+#header-line1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 90px 0 30px;
+}
+#header-pro {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 8px solid #00003a;
+  pointer-events: none;
+}
+#header-h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  color: #00003a;
+  margin: 0;
+  letter-spacing: 5px;
+  padding: 0 10px 0 10px;
+  opacity: 0.8;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+#header-h1:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+#header-github {
+  width: 40px;
+  height: 40px;
+  pointer-events: none;
+}
+
+#header-in {
+  width: 40px;
+  height: 40px;
+  pointer-events: none;
+}
+#header-twitter {
+  width: 40px;
+  height: 40px;
+  pointer-events: none;
+}
+#header-instagram {
+  width: 40px;
+  height: 40px;
+  pointer-events: none;
+}
+#header-h3 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  color: #525fff;
+  margin: 0;
+  letter-spacing: 1px;
+  position: absolute;
+  left: 220px;
+  top: 140px;
+  opacity: 0.8;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+#header-h3:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+#main-about:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+#main-skills:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+#main {
+  position: relative;
+}
+#main-about {
+  font-family: "Kanit", sans-serif;
+  font-size: 40px;
+  position: absolute;
+  left: 100px;
+  top: 50px;
+  opacity: 0.8;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+#main-about-p {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  position: absolute;
+  font-size: 20px;
+  left: 100px;
+  top: 150px;
+  padding-right: 110px;
+  margin: 0;
+  color: #00003a;
+}
+#main-skills {
+  font-family: "Kanit", sans-serif;
+  font-size: 40px;
+  position: absolute;
+  left: 100px;
+  top: 280px;
+  opacity: 0.8;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+#main-ul1 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  position: absolute;
+  font-size: 20px;
+  left: 100px;
+  top: 385px;
+  padding-right: 110px;
+  margin: 0;
+  color: #00003a;
+}
+#main-ul2 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  position: absolute;
+  font-size: 20px;
+  right: 100px;
+  top: 385px;
+  padding-right: 110px;
+  margin: 0;
+  color: #00003a;
+}
+@media only screen and (max-width: 670px) {
+  #header-line1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 90px 0 30px;
+  }
+  body {
+    overflow-y: scroll;
+    background-color: #ffffff;
+  }
+  #header-h3 {
+    margin-top: 120px;
+  }
+  #header-github {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  #header-in {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #header-twitter {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #header-instagram {
+    margin-top: 10px;
+  }
+  #main-ul2 {
+    right: 10px;
+  }
+}
